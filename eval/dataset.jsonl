@@ -1,0 +1,210 @@
+{"id": "q1", "question": "What is the output voltage of the YC-3300?", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["3.3"]}
+{"id": "q2", "question": "What is the output voltage accuracy?", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["2"]}
+{"id": "q3", "question": "What is the maximum output current?", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["500"]}
+{"id": "q4", "question": "What is the dropout voltage Vdrop?", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["150"]}
+{"id": "q5", "question": "What is the quiescent current Iq?", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["45"]}
+{"id": "q6", "question": "What is the operating temperature range?", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["-40"]}
+{"id": "q7", "question": "What packages does the YC-3300 come in?", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["SOT-23-5"]}
+{"id": "q8", "question": "What is the current limit point?", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["650"]}
+{"id": "q9", "question": "At what junction temperature does thermal shutdown occur?", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["150"]}
+{"id": "q10", "question": "What are the recommended input and output capacitor values?", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["2.2"]}
+{"id": "q11", "question": "In the 3.3V configuration what feedback resistors are used?", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["R1"]}
+{"id": "q12", "question": "What is the absolute maximum input voltage?", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["6.0"]}
+{"id": "q13", "question": "What is the line regulation?", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.10"]}
+{"id": "q14", "question": "What is the load regulation?", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.50"]}
+{"id": "q15", "question": "What is the max quiescent current?", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["70"]}
+{"id": "q16", "question": "What is the shutdown current Isd?", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.2"]}
+{"id": "q17", "question": "What is the output noise voltage?", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["45"]}
+{"id": "q18", "question": "What is the power supply rejection ratio PSRR?", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["60"]}
+{"id": "q19", "question": "What is the startup time from EN high to Vout stable?", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["380"]}
+{"id": "q20", "question": "What is the enable delay?", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["12"]}
+{"id": "q21", "question": "What is the soft-start time?", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["1.2"]}
+{"id": "q22", "question": "What is the junction-to-ambient thermal resistance for the SOT-23-5 package?", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["230"]}
+{"id": "q23", "question": "What is the junction-to-ambient thermal resistance for the DFN-6 package?", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["65"]}
+{"id": "q24", "question": "What is the EN pin threshold for enabling the device?", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["1.5"]}
+{"id": "q25", "question": "What is the minimum output voltage over tolerance?", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["3.234"]}
+{"id": "q26", "question": "What is the feedback reference voltage used in the Vout equation?", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.8"]}
+{"id": "q27", "question": "What Vout does the YC-3300 produce? (ref 1)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["3.3"]}
+{"id": "q28", "question": "How accurate is the output voltage? (ref 1)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["2"]}
+{"id": "q29", "question": "How much current can the YC-3300 supply? (ref 1)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["500"]}
+{"id": "q30", "question": "What is the typical dropout of this LDO? (ref 1)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["150"]}
+{"id": "q31", "question": "How much current does the part draw at no load? (ref 1)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["45"]}
+{"id": "q32", "question": "Over what temperature range does the YC-3300 operate? (ref 1)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["-40"]}
+{"id": "q33", "question": "Which package options are offered? (ref 1)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["SOT-23-5"]}
+{"id": "q34", "question": "At what current does the overcurrent protection trip? (ref 1)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["650"]}
+{"id": "q35", "question": "What is the thermal shutdown threshold? (ref 1)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["150"]}
+{"id": "q36", "question": "What output capacitor should I use? (ref 1)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["2.2"]}
+{"id": "q37", "question": "What R1 and R2 values give 3.3V out? (ref 1)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["R1"]}
+{"id": "q38", "question": "What is the max Vin the part can survive? (ref 1)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["6.0"]}
+{"id": "q39", "question": "What is the max line regulation of the YC-3300? (ref 1)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.10"]}
+{"id": "q40", "question": "What is the worst-case load regulation? (ref 1)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.50"]}
+{"id": "q41", "question": "What is the worst-case Iq? (ref 1)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["70"]}
+{"id": "q42", "question": "How much current is drawn in shutdown? (ref 1)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.2"]}
+{"id": "q43", "question": "What is Vn of the YC-3300? (ref 1)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["45"]}
+{"id": "q44", "question": "What is the PSRR of the YC-3300? (ref 1)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["60"]}
+{"id": "q45", "question": "How long does startup take? (ref 1)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["380"]}
+{"id": "q46", "question": "How long is the EN propagation delay? (ref 1)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["12"]}
+{"id": "q47", "question": "How long does soft-start take? (ref 1)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["1.2"]}
+{"id": "q48", "question": "What is theta-JA of the SOT-23-5 version? (ref 1)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["230"]}
+{"id": "q49", "question": "What is theta-JA of the DFN-6 version? (ref 1)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["65"]}
+{"id": "q50", "question": "At what voltage does EN turn the part on? (ref 1)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["1.5"]}
+{"id": "q51", "question": "What is the lowest Vout allowed by spec? (ref 1)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["3.234"]}
+{"id": "q52", "question": "What reference voltage appears in the feedback divider formula? (ref 1)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.8"]}
+{"id": "q53", "question": "What is the nominal output voltage? (ref 2)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["3.3"]}
+{"id": "q54", "question": "What is the Vout tolerance? (ref 2)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["2"]}
+{"id": "q55", "question": "What is the Iout max rating? (ref 2)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["500"]}
+{"id": "q56", "question": "How large is Vdrop? (ref 2)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["150"]}
+{"id": "q57", "question": "What is the typical Iq? (ref 2)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["45"]}
+{"id": "q58", "question": "What are the min and max operating temperatures? (ref 2)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["-40"]}
+{"id": "q59", "question": "What is the package type of the YC-3300? (ref 2)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["SOT-23-5"]}
+{"id": "q60", "question": "What is the overcurrent threshold? (ref 2)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["650"]}
+{"id": "q61", "question": "When does the over-temperature protection kick in? (ref 2)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["150"]}
+{"id": "q62", "question": "What is the recommended Cout? (ref 2)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["2.2"]}
+{"id": "q63", "question": "How are the feedback resistors sized for 3.3V? (ref 2)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["R1"]}
+{"id": "q64", "question": "What is the absolute max rating for input voltage? (ref 2)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["6.0"]}
+{"id": "q65", "question": "How much does Vout change with Vin? (ref 2)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.10"]}
+{"id": "q66", "question": "How well does Vout hold under load change? (ref 2)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.50"]}
+{"id": "q67", "question": "What is the upper limit on ground current? (ref 2)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["70"]}
+{"id": "q68", "question": "What is the supply current when disabled? (ref 2)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.2"]}
+{"id": "q69", "question": "How noisy is the output? (ref 2)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["45"]}
+{"id": "q70", "question": "How well does the part reject supply ripple? (ref 2)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["60"]}
+{"id": "q71", "question": "What is the turn-on time? (ref 2)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["380"]}
+{"id": "q72", "question": "What is tEN of this part? (ref 2)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["12"]}
+{"id": "q73", "question": "What is tSS? (ref 2)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["1.2"]}
+{"id": "q74", "question": "How hot does the SOT-23-5 package run? (ref 2)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["230"]}
+{"id": "q75", "question": "How much better does DFN-6 sink heat than SOT-23-5? (ref 2)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["65"]}
+{"id": "q76", "question": "What is the enable logic threshold? (ref 2)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["1.5"]}
+{"id": "q77", "question": "What is the Vout min limit? (ref 2)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["3.234"]}
+{"id": "q78", "question": "What is Vref in the Vout equation? (ref 2)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.8"]}
+{"id": "q79", "question": "What is the output voltage of the YC-3300? (ref 3)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["3.3"]}
+{"id": "q80", "question": "What is the output voltage accuracy? (ref 3)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["2"]}
+{"id": "q81", "question": "What is the maximum output current? (ref 3)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["500"]}
+{"id": "q82", "question": "What is the dropout voltage Vdrop? (ref 3)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["150"]}
+{"id": "q83", "question": "What is the quiescent current Iq? (ref 3)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["45"]}
+{"id": "q84", "question": "What is the operating temperature range? (ref 3)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["-40"]}
+{"id": "q85", "question": "What packages does the YC-3300 come in? (ref 3)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["SOT-23-5"]}
+{"id": "q86", "question": "What is the current limit point? (ref 3)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["650"]}
+{"id": "q87", "question": "At what junction temperature does thermal shutdown occur? (ref 3)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["150"]}
+{"id": "q88", "question": "What are the recommended input and output capacitor values? (ref 3)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["2.2"]}
+{"id": "q89", "question": "In the 3.3V configuration what feedback resistors are used? (ref 3)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["R1"]}
+{"id": "q90", "question": "What is the absolute maximum input voltage? (ref 3)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["6.0"]}
+{"id": "q91", "question": "What is the line regulation? (ref 3)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.10"]}
+{"id": "q92", "question": "What is the load regulation? (ref 3)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.50"]}
+{"id": "q93", "question": "What is the max quiescent current? (ref 3)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["70"]}
+{"id": "q94", "question": "What is the shutdown current Isd? (ref 3)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.2"]}
+{"id": "q95", "question": "What is the output noise voltage? (ref 3)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["45"]}
+{"id": "q96", "question": "What is the power supply rejection ratio PSRR? (ref 3)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["60"]}
+{"id": "q97", "question": "What is the startup time from EN high to Vout stable? (ref 3)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["380"]}
+{"id": "q98", "question": "What is the enable delay? (ref 3)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["12"]}
+{"id": "q99", "question": "What is the soft-start time? (ref 3)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["1.2"]}
+{"id": "q100", "question": "What is the junction-to-ambient thermal resistance for the SOT-23-5 package? (ref 3)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["230"]}
+{"id": "q101", "question": "What is the junction-to-ambient thermal resistance for the DFN-6 package? (ref 3)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["65"]}
+{"id": "q102", "question": "What is the EN pin threshold for enabling the device? (ref 3)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["1.5"]}
+{"id": "q103", "question": "What is the minimum output voltage over tolerance? (ref 3)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["3.234"]}
+{"id": "q104", "question": "What is the feedback reference voltage used in the Vout equation? (ref 3)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.8"]}
+{"id": "q105", "question": "What Vout does the YC-3300 produce? (ref 4)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["3.3"]}
+{"id": "q106", "question": "How accurate is the output voltage? (ref 4)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["2"]}
+{"id": "q107", "question": "How much current can the YC-3300 supply? (ref 4)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["500"]}
+{"id": "q108", "question": "What is the typical dropout of this LDO? (ref 4)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["150"]}
+{"id": "q109", "question": "How much current does the part draw at no load? (ref 4)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["45"]}
+{"id": "q110", "question": "Over what temperature range does the YC-3300 operate? (ref 4)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["-40"]}
+{"id": "q111", "question": "Which package options are offered? (ref 4)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["SOT-23-5"]}
+{"id": "q112", "question": "At what current does the overcurrent protection trip? (ref 4)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["650"]}
+{"id": "q113", "question": "What is the thermal shutdown threshold? (ref 4)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["150"]}
+{"id": "q114", "question": "What output capacitor should I use? (ref 4)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["2.2"]}
+{"id": "q115", "question": "What R1 and R2 values give 3.3V out? (ref 4)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["R1"]}
+{"id": "q116", "question": "What is the max Vin the part can survive? (ref 4)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["6.0"]}
+{"id": "q117", "question": "What is the max line regulation of the YC-3300? (ref 4)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.10"]}
+{"id": "q118", "question": "What is the worst-case load regulation? (ref 4)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.50"]}
+{"id": "q119", "question": "What is the worst-case Iq? (ref 4)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["70"]}
+{"id": "q120", "question": "How much current is drawn in shutdown? (ref 4)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.2"]}
+{"id": "q121", "question": "What is Vn of the YC-3300? (ref 4)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["45"]}
+{"id": "q122", "question": "What is the PSRR of the YC-3300? (ref 4)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["60"]}
+{"id": "q123", "question": "How long does startup take? (ref 4)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["380"]}
+{"id": "q124", "question": "How long is the EN propagation delay? (ref 4)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["12"]}
+{"id": "q125", "question": "How long does soft-start take? (ref 4)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["1.2"]}
+{"id": "q126", "question": "What is theta-JA of the SOT-23-5 version? (ref 4)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["230"]}
+{"id": "q127", "question": "What is theta-JA of the DFN-6 version? (ref 4)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["65"]}
+{"id": "q128", "question": "At what voltage does EN turn the part on? (ref 4)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["1.5"]}
+{"id": "q129", "question": "What is the lowest Vout allowed by spec? (ref 4)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["3.234"]}
+{"id": "q130", "question": "What reference voltage appears in the feedback divider formula? (ref 4)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.8"]}
+{"id": "q131", "question": "What is the nominal output voltage? (ref 5)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["3.3"]}
+{"id": "q132", "question": "What is the Vout tolerance? (ref 5)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["2"]}
+{"id": "q133", "question": "What is the Iout max rating? (ref 5)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["500"]}
+{"id": "q134", "question": "How large is Vdrop? (ref 5)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["150"]}
+{"id": "q135", "question": "What is the typical Iq? (ref 5)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["45"]}
+{"id": "q136", "question": "What are the min and max operating temperatures? (ref 5)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["-40"]}
+{"id": "q137", "question": "What is the package type of the YC-3300? (ref 5)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["SOT-23-5"]}
+{"id": "q138", "question": "What is the overcurrent threshold? (ref 5)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["650"]}
+{"id": "q139", "question": "When does the over-temperature protection kick in? (ref 5)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["150"]}
+{"id": "q140", "question": "What is the recommended Cout? (ref 5)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["2.2"]}
+{"id": "q141", "question": "How are the feedback resistors sized for 3.3V? (ref 5)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["R1"]}
+{"id": "q142", "question": "What is the absolute max rating for input voltage? (ref 5)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["6.0"]}
+{"id": "q143", "question": "How much does Vout change with Vin? (ref 5)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.10"]}
+{"id": "q144", "question": "How well does Vout hold under load change? (ref 5)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.50"]}
+{"id": "q145", "question": "What is the upper limit on ground current? (ref 5)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["70"]}
+{"id": "q146", "question": "What is the supply current when disabled? (ref 5)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.2"]}
+{"id": "q147", "question": "How noisy is the output? (ref 5)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["45"]}
+{"id": "q148", "question": "How well does the part reject supply ripple? (ref 5)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["60"]}
+{"id": "q149", "question": "What is the turn-on time? (ref 5)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["380"]}
+{"id": "q150", "question": "What is tEN of this part? (ref 5)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["12"]}
+{"id": "q151", "question": "What is tSS? (ref 5)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["1.2"]}
+{"id": "q152", "question": "How hot does the SOT-23-5 package run? (ref 5)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["230"]}
+{"id": "q153", "question": "How much better does DFN-6 sink heat than SOT-23-5? (ref 5)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["65"]}
+{"id": "q154", "question": "What is the enable logic threshold? (ref 5)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["1.5"]}
+{"id": "q155", "question": "What is the Vout min limit? (ref 5)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["3.234"]}
+{"id": "q156", "question": "What is Vref in the Vout equation? (ref 5)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.8"]}
+{"id": "q157", "question": "What is the output voltage of the YC-3300? (ref 6)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["3.3"]}
+{"id": "q158", "question": "What is the output voltage accuracy? (ref 6)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["2"]}
+{"id": "q159", "question": "What is the maximum output current? (ref 6)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["500"]}
+{"id": "q160", "question": "What is the dropout voltage Vdrop? (ref 6)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["150"]}
+{"id": "q161", "question": "What is the quiescent current Iq? (ref 6)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["45"]}
+{"id": "q162", "question": "What is the operating temperature range? (ref 6)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["-40"]}
+{"id": "q163", "question": "What packages does the YC-3300 come in? (ref 6)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["SOT-23-5"]}
+{"id": "q164", "question": "What is the current limit point? (ref 6)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["650"]}
+{"id": "q165", "question": "At what junction temperature does thermal shutdown occur? (ref 6)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["150"]}
+{"id": "q166", "question": "What are the recommended input and output capacitor values? (ref 6)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["2.2"]}
+{"id": "q167", "question": "In the 3.3V configuration what feedback resistors are used? (ref 6)", "answer_type": "factual", "gold_sources": ["quickstart.md:1"], "gold_keywords": ["R1"]}
+{"id": "q168", "question": "What is the absolute maximum input voltage? (ref 6)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["6.0"]}
+{"id": "q169", "question": "What is the line regulation? (ref 6)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.10"]}
+{"id": "q170", "question": "What is the load regulation? (ref 6)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.50"]}
+{"id": "q171", "question": "What is the max quiescent current? (ref 6)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["70"]}
+{"id": "q172", "question": "What is the shutdown current Isd? (ref 6)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["0.2"]}
+{"id": "q173", "question": "What is the output noise voltage? (ref 6)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["45"]}
+{"id": "q174", "question": "What is the power supply rejection ratio PSRR? (ref 6)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["60"]}
+{"id": "q175", "question": "What is the startup time from EN high to Vout stable? (ref 6)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["380"]}
+{"id": "q176", "question": "What is the enable delay? (ref 6)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["12"]}
+{"id": "q177", "question": "What is the soft-start time? (ref 6)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["1.2"]}
+{"id": "q178", "question": "What is the junction-to-ambient thermal resistance for the SOT-23-5 package? (ref 6)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["230"]}
+{"id": "q179", "question": "What is the junction-to-ambient thermal resistance for the DFN-6 package? (ref 6)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["65"]}
+{"id": "q180", "question": "What is the EN pin threshold for enabling the device? (ref 6)", "answer_type": "factual", "gold_sources": ["yc3300_spec.md:1"], "gold_keywords": ["1.5"]}
+{"id": "q181", "question": "How does the DFN-6 package compare to SOT-23-5 for thermal performance, and what is the dropout voltage of the device?", "answer_type": "multi_hop", "gold_sources": ["yc3300_spec.md:1", "quickstart.md:1"], "gold_keywords": ["65", "150"]}
+{"id": "q182", "question": "What feedback resistors give a 3.3V output, and what is the accuracy of that output?", "answer_type": "multi_hop", "gold_sources": ["yc3300_spec.md:1", "quickstart.md:1"], "gold_keywords": ["312", "2"]}
+{"id": "q183", "question": "What is the short-circuit current limit and what happens during a thermal overload?", "answer_type": "multi_hop", "gold_sources": ["quickstart.md:1", "yc3300_spec.md:1"], "gold_keywords": ["650", "150"]}
+{"id": "q184", "question": "What is the max input voltage, and what is the recommended input capacitor?", "answer_type": "multi_hop", "gold_sources": ["yc3300_spec.md:1", "quickstart.md:1"], "gold_keywords": ["6.0", "1"]}
+{"id": "q185", "question": "What is the shutdown current and the quiescent current?", "answer_type": "multi_hop", "gold_sources": ["yc3300_spec.md:1", "quickstart.md:1"], "gold_keywords": ["0.2", "45"]}
+{"id": "q186", "question": "What is the enable threshold, and what is the startup time once enabled?", "answer_type": "multi_hop", "gold_sources": ["yc3300_spec.md:1", "yc3300_spec.md:1"], "gold_keywords": ["1.5", "380"]}
+{"id": "q187", "question": "What is the soft-start time and the enable delay?", "answer_type": "multi_hop", "gold_sources": ["yc3300_spec.md:1", "yc3300_spec.md:1"], "gold_keywords": ["1.2", "12"]}
+{"id": "q188", "question": "What is the output noise and the power supply rejection ratio?", "answer_type": "multi_hop", "gold_sources": ["yc3300_spec.md:1", "yc3300_spec.md:1"], "gold_keywords": ["45", "60"]}
+{"id": "q189", "question": "What package options exist and what is the thermal resistance of the better one?", "answer_type": "multi_hop", "gold_sources": ["quickstart.md:1", "yc3300_spec.md:1"], "gold_keywords": ["DFN-6", "65"]}
+{"id": "q190", "question": "What is the max output current and the current limit point?", "answer_type": "multi_hop", "gold_sources": ["quickstart.md:1", "yc3300_spec.md:1"], "gold_keywords": ["500", "650"]}
+{"id": "q191", "question": "What is the warranty period of the YC-3300?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q192", "question": "Who is the CEO of the company that makes this chip?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q193", "question": "What is the price of the YC-3300 in USD?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q194", "question": "Does the YC-3300 support USB Power Delivery?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q195", "question": "What is the mean time between failures MTBF?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q196", "question": "Is the YC-3300 qualified for automotive use?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q197", "question": "What is the part number of the competing device from Texas Instruments?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q198", "question": "How many units ship per reel?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q199", "question": "What is the lead time for the YC-3300?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q200", "question": "Does this device support I2C configuration?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q201", "question": "What is the pinout of the WLCSP package?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q202", "question": "What is the output voltage accuracy at -55 degrees celsius?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q203", "question": "Is there an AEC-Q100 certificate for this part?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q204", "question": "What firmware is required to use the YC-3300?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q205", "question": "What is the die size of the YC-3300?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q206", "question": "Who designed the YC-3300?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q207", "question": "What EDA tool was used to lay out the YC-3300?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q208", "question": "Is the YC-3300 RoHS compliant?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q209", "question": "What is the moisture sensitivity level MSL?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
+{"id": "q210", "question": "Does the part support phase-locked loop operation?", "answer_type": "no_answer", "gold_sources": [], "gold_keywords": []}
